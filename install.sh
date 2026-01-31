@@ -61,8 +61,7 @@ install_essential_packages() {
         "sudo"
         "build-essential"
         "ca-certificates"
-        
-        # Éditeurs
+        "bash-completion"
         "vim"
         
         # Outils système
@@ -73,6 +72,9 @@ install_essential_packages() {
         "dnsutils"
         "whois"
         "traceroute"
+        "ncdu"
+        "nmap"
+        "netcat"
         
         # Compression
         "zip"
